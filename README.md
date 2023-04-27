@@ -4,11 +4,18 @@
 
 ![image](https://user-images.githubusercontent.com/57833772/233807384-9e3829d5-91a6-4897-92e6-85458f4d3bc4.png)
 
+## Technologies used
+* PyTorch
+* Pandas
+* Hugging Face
+* SeaBorn
+
 ## Folder structure
 1. ```news_data``` - ~0.5mln rows split into several CSV files containing news headline, news article and news category. 
 2. ```notebooks```:
-  1. Data Exploration - notebook exploring the data, testing for class imbalance and trying to spot any instant patterns.
-  2. Hugging Face - notebook implementing zero-shot bart and bert classifiers! Have a go! 
+  1. Data Exploration - notebook exploring the data, testing for class imbalance and trying to spot any instant patterns. 80% accuracy on reduced testset.
+  2. Hugging Face - notebook implementing zero-shot bart and bert classifiers! Have a go! 90% accuracy on reduced testset.
+  
 
 ## Sample row
 
